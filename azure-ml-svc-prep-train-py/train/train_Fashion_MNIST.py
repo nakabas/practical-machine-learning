@@ -15,3 +15,16 @@ from tensorflow.keras.layers import Dense, Dropout, Flatten
 from tensorflow.keras.layers import Conv2D, MaxPooling2D
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 from tensorflow.keras import backend as K
+
+import azureml.core
+from azureml.core.run import Run
+
+print("TensorFlow version:", tf.__version__)
+print("Using GPU build:", tf.test.is_built_with_cuda())
+print("Is GPU available:", tf.test.is_gpu_available())
+print("Azure ML SDK version:", azureml.core.VERSION)
+
+outputs_folder = './outputs'
+os.makedirs(outputs_folder, exist_ok=True)
+
+run = Run.get_context()
