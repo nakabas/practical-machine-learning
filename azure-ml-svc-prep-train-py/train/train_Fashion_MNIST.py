@@ -47,3 +47,21 @@ print('x_test shape:', x_test.shape)
 #   Deal with format issues between different backends.  Some put the # of channels in the image before the width and height of image.
 if K.image_data_format() == 'channels_first':
     x_train = x_train.reshape(x_train.shape[0], 1, img_rows, img_cols)
+    x_test = x_test.reshape(x_test.shape[0], 1, img_rows, img_cols)
+    input_shape = (1, img_rows, img_cols)
+else:
+    x_train = x_train.reshape(x_train.shape[0], img_rows, img_cols, 1)
+    x_test = x_test.reshape(x_test.shape[0], img_rows, img_cols, 1)
+    input_shape = (img_rows, img_cols, 1)
+
+#   Type convert and scale the test and training data
+x_train = x_train.astype('float32')
+x_test = x_test.astype('float32')
+x_train /= 255
+x_test /= 255
+print('x_train shape (after reshape):', x_train.shape)
+print('x_test shape (after reshape):', x_test.shape)
+
+img_index = 1
+plt.imsave('fashion.png', 1-x_train[img_index][:, :, 0], cmap='gray')
+run.log_image('Fashion Sample', path='fashion.png')
