@@ -94,3 +94,20 @@ model.summary()
 model.compile(loss=keras.losses.categorical_crossentropy,
               optimizer=keras.optimizers.Adam(),
               metrics=['accuracy'])
+
+#   Define callbacks
+my_callbacks = [
+    EarlyStopping(monitor='val_accuracy', patience=5, mode='max'), 
+    ModelCheckpoint('./outputs/checkpoint.h5', verbose=1)
+]
+
+#   Train the model and test/validate the mode with the test data after each cycle (epoch) through the training data
+#   Return history of loss and accuracy for each epoch
+hist = model.fit(x_train, y_train,
+            batch_size=batch_size,
+            epochs=epochs,
+            verbose=1,
+            callbacks=my_callbacks,
+            validation_data=(x_test, y_test))
+run.log_list('Training Loss', hist.history['loss'])
+run.log_list('Training Accuracy', hist.history['accuracy'])
