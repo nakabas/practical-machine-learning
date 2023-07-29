@@ -65,3 +65,17 @@ print('x_test shape (after reshape):', x_test.shape)
 img_index = 1
 plt.imsave('fashion.png', 1-x_train[img_index][:, :, 0], cmap='gray')
 run.log_image('Fashion Sample', path='fashion.png')
+
+print("Before:\n{}".format(y_train[:4]))
+# convert class vectors to binary class matrices.  One-hot encoding
+#  3 => 0 0 0 1 0 0 0 0 0 0 and 1 => 0 1 0 0 0 0 0 0 0 0 
+y_train = keras.utils.to_categorical(y_train, num_classes)
+y_test = keras.utils.to_categorical(y_test, num_classes)
+print("After:\n{}".format(y_train[:4]))  # verify one-hot encoding
+
+# Define the model
+model = Sequential()
+model.add(Conv2D(32, kernel_size=(3, 3),
+                 activation='relu',
+                 input_shape=input_shape))
+model.add(MaxPooling2D(pool_size=(2, 2)))
