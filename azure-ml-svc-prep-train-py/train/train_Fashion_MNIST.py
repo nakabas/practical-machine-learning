@@ -111,3 +111,13 @@ hist = model.fit(x_train, y_train,
             validation_data=(x_test, y_test))
 run.log_list('Training Loss', hist.history['loss'])
 run.log_list('Training Accuracy', hist.history['accuracy'])
+run.log_list('Validation Accuracy', hist.history['val_accuracy'])
+
+#   Evaluate the model with the test data to get the scores on "real" data.
+score = model.evaluate(x_test, y_test, verbose=0)
+print('Test loss:', score[0])
+print('Test accuracy:', score[1])
+run.log('loss', score[0])
+run.log('accuracy', score[1])
+
+#   Plot data to see relationships in training and validation data
