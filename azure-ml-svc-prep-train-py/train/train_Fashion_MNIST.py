@@ -121,3 +121,17 @@ run.log('loss', score[0])
 run.log('accuracy', score[1])
 
 #   Plot data to see relationships in training and validation data
+epoch_list = list(range(1, len(hist.history['accuracy']) + 1))  # values for x axis [1, 2, ..., # of epochs]
+plt.plot(epoch_list, hist.history['accuracy'], epoch_list, hist.history['val_accuracy'])
+plt.legend(('Training Accuracy', 'Validation Accuracy'))
+run.log_image(name='Accuracy', plot=plt)
+
+keras_path = os.path.join(outputs_folder, "keras")
+os.makedirs(keras_path, exist_ok=True)
+
+print("Exporting Keras models to", keras_path)
+with open(os.path.join(keras_path, "model.json"), 'w') as f:
+    f.write(model.to_json())
+model.save_weights(os.path.join(keras_path, 'model.h5'))
+
+model.save(os.path.join(keras_path, 'full_model.h5'))
