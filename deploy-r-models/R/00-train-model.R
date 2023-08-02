@@ -1,2 +1,3 @@
 ##########################################################
-#   Create, Test and Save a Logistic
+#   Create, Test and Save a Logistic Regression Model    #
+##
