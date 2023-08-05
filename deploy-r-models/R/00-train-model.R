@@ -2,4 +2,4 @@
 #   Create, Test and Save a Logistic Regression Model    #
 ##########################################################
 
-# Use 
+# Use logistic regression eq
