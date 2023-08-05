@@ -2,4 +2,4 @@
 #   Create, Test and Save a Logistic Regression Model    #
 ##########################################################
 
-# Use logistic regression eq
+# Use logistic regression equation of vehicle 
