@@ -3,4 +3,4 @@
 ##########################################################
 
 # Use logistic regression equation of vehicle transmission 
-# in th
+# in the data set mtcars to 
