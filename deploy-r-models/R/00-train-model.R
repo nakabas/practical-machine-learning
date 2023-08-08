@@ -10,4 +10,4 @@
 ?mtcars
 summary(mtcars)
 
-# Cr
+# Create glm model wi
