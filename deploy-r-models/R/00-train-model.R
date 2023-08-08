@@ -8,4 +8,6 @@
 # based on horsepower (hp) and weight (wt)
 
 ?mtcars
-summa
+summary(mtcars)
+
+# Cr
