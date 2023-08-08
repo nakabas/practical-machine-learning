@@ -5,4 +5,4 @@
 # Use logistic regression equation of vehicle transmission 
 # in the data set mtcars to estimate the probability of 
 # a vehicle being fitted with a manual transmission 
-# based on horsepower (hp
+# based on horsepower (hp) and weight (wt
