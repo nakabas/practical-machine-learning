@@ -10,4 +10,5 @@
 ?mtcars
 summary(mtcars)
 
-# Create glm model wi
+# Create glm model with `mtcars` dataset
+ca
