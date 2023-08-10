@@ -11,4 +11,4 @@
 summary(mtcars)
 
 # Create glm model with `mtcars` dataset
-ca
+carsModel <- glm(for
