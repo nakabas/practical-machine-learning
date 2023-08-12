@@ -11,4 +11,5 @@
 summary(mtcars)
 
 # Create glm model with `mtcars` dataset
-carsModel <- glm(formula = am ~ hp + wt, data = mtc
+carsModel <- glm(formula = am ~ hp + wt, data = mtcars, family = binomial)
+
