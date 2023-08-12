@@ -13,4 +13,4 @@ summary(mtcars)
 # Create glm model with `mtcars` dataset
 carsModel <- glm(formula = am ~ hp + wt, data = mtcars, family = binomial)
 
-# Produce a pr
+# Produce a prediction funct
