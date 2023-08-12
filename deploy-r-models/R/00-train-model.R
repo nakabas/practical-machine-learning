@@ -11,4 +11,4 @@
 summary(mtcars)
 
 # Create glm model with `mtcars` dataset
-carsModel <- glm(formula = am ~ hp + w
+carsModel <- glm(formula = am ~ hp + wt, data = mtc
