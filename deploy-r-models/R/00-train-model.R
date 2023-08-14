@@ -14,4 +14,4 @@ summary(mtcars)
 carsModel <- glm(formula = am ~ hp + wt, data = mtcars, family = binomial)
 
 # Produce a prediction function that can use the model
-manualTransm
+manualTransmission <- functi
