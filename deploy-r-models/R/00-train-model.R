@@ -16,4 +16,4 @@ carsModel <- glm(formula = am ~ hp + wt, data = mtcars, family = binomial)
 # Produce a prediction function that can use the model
 manualTransmission <- function(hp, wt) {
   newdata <- data.frame(hp = hp, wt = wt)
-  predict(carsModel, newdata
+  predict(carsModel, newdata, type = "response")
