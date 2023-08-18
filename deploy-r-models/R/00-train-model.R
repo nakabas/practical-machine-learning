@@ -19,4 +19,5 @@ manualTransmission <- function(hp, wt) {
   predict(carsModel, newdata, type = "response")
 }
 
-# test function locally by printing r
+# test function locally by printing results
+print(man
