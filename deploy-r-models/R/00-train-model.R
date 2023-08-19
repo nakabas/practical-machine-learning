@@ -20,4 +20,6 @@ manualTransmission <- function(hp, wt) {
 }
 
 # test function locally by printing results
-print(manualTransmission(120, 2.8)) 
+print(manualTransmission(120, 2.8)) # 0.6418125
+
+carsMo
