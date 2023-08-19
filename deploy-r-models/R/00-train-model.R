@@ -20,4 +20,4 @@ manualTransmission <- function(hp, wt) {
 }
 
 # test function locally by printing results
-print(man
+print(manualTransmission
