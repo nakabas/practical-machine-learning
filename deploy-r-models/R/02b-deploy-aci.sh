@@ -29,3 +29,16 @@ while getopts ":i:g:n:l:r:d:" arg; do
 			deploymentName=${OPTARG}
 			;;
 		l)
+			resourceGroupLocation=${OPTARG}
+			;;
+		r)
+			acrName=${OPTARG}
+			;;
+		d)
+			aciDnsNameLabel=${OPTARG}
+			;;
+		esac
+done
+shift $((OPTIND-1))
+
+#Prompt for parameters is some required parameters are missing
