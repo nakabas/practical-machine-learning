@@ -74,3 +74,19 @@ if [[ -z "$acrName" ]]; then
 	echo "Enter a name for the azure container registry:"
 	read acrName
 fi
+
+if [[ -z "$aciDnsNameLabel" ]]; then
+	echo "Enter a name for the azure container instance dns entry:"
+	read aciDnsNameLabel
+fi
+
+#login to azure using your credentials
+az account show 1> /dev/null
+
+if [ $? != 0 ];
+then
+	az login
+fi
+
+#set the default subscription id
+az account set --subscription $subscriptionId
