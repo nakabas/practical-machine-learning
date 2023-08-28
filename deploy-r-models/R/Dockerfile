@@ -1,3 +1,3 @@
 FROM trestletech/plumber
 
-COPY cars-mod
+COPY cars-model.rds /ca
