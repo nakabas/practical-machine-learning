@@ -1,3 +1,4 @@
 FROM trestletech/plumber
 
-COPY cars-model.rds /ca
+COPY cars-model.rds /cars-model.rds
+COPY pl
