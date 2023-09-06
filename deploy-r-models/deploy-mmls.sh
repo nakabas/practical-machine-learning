@@ -1,1 +1,2 @@
-#!/b
+#!/bin/bash
+set -euo 
