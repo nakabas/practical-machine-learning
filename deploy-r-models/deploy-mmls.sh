@@ -1,3 +1,5 @@
 #!/bin/bash
 set -euo pipefail
-IFS=$'\n\
+IFS=$'\n\t'
+
+# -e: immedi
