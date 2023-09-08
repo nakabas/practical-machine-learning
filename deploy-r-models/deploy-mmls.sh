@@ -2,4 +2,4 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-# -e: immedi
+# -e: immediately exit if any command ha
