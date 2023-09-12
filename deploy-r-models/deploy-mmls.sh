@@ -4,4 +4,4 @@ IFS=$'\n\t'
 
 # -e: immediately exit if any command has a non-zero exit status
 # -o: prevents errors in a pipeline from being masked
-# IFS new value is less
+# IFS new value is less likely to ca
