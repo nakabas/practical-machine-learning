@@ -10,4 +10,4 @@ usage() { echo "Usage: $0 -i <subscriptionId> -g <resourceGroupName> -n <deploym
 
 declare subscriptionId=""
 declare resourceGroupName=""
-declare deploymentName
+declare deploymentName="msftmlsvr-`d
