@@ -13,4 +13,5 @@ declare resourceGroupName=""
 declare deploymentName="msftmlsvr-`date '+%Y-%m-%d-%H-%M-%S'`"
 declare resourceGroupLocation=""
 declare vmPrefix=""
-declar
+declare username="" 
+declare p
