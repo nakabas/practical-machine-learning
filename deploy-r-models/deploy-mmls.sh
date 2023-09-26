@@ -14,4 +14,6 @@ declare deploymentName="msftmlsvr-`date '+%Y-%m-%d-%H-%M-%S'`"
 declare resourceGroupLocation=""
 declare vmPrefix=""
 declare username="" 
-declare p
+declare password=""
+
+# Ini
