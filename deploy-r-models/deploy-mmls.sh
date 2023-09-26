@@ -16,4 +16,4 @@ declare vmPrefix=""
 declare username="" 
 declare password=""
 
-# Ini
+# Initialize parame
