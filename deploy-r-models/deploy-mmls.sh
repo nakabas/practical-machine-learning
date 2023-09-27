@@ -16,4 +16,4 @@ declare vmPrefix=""
 declare username="" 
 declare password=""
 
-# Initialize parameters specified f
+# Initialize parameters specified from command line
