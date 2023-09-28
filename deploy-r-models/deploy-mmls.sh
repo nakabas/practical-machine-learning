@@ -17,4 +17,4 @@ declare username=""
 declare password=""
 
 # Initialize parameters specified from command line
-while getopts ":i:g:n
+while getopts ":i:g:n:l:v:u:p:" arg
