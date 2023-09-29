@@ -21,4 +21,6 @@ while getopts ":i:g:n:l:v:u:p:" arg; do
 	case "${arg}" in
 		i)
 			subscriptionId=${OPTARG}
-		
+			;;
+		g)
+			resourceGrou
