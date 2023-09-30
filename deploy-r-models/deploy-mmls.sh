@@ -24,4 +24,6 @@ while getopts ":i:g:n:l:v:u:p:" arg; do
 			;;
 		g)
 			resourceGroupName=${OPTARG}
-		
+			;;
+		n)
+			deploymen
