@@ -28,3 +28,5 @@ while getopts ":i:g:n:l:v:u:p:" arg; do
 		n)
 			deploymentName=${OPTARG}
 			;;
+		l)
+			resourc
