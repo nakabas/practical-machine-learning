@@ -23,4 +23,5 @@ while getopts ":i:g:n:l:v:u:p:" arg; do
 			subscriptionId=${OPTARG}
 			;;
 		g)
-			resourceGrou
+			resourceGroupName=${OPTARG}
+		
