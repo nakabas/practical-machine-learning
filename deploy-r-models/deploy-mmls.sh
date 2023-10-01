@@ -29,4 +29,4 @@ while getopts ":i:g:n:l:v:u:p:" arg; do
 			deploymentName=${OPTARG}
 			;;
 		l)
-			resourc
+			resourceGroupLocation=${OP
