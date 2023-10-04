@@ -31,4 +31,5 @@ while getopts ":i:g:n:l:v:u:p:" arg; do
 		l)
 			resourceGroupLocation=${OPTARG}
 			;;
-	
+		v)
+			vmPrefi
