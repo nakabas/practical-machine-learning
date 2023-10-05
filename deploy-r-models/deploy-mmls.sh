@@ -32,4 +32,6 @@ while getopts ":i:g:n:l:v:u:p:" arg; do
 			resourceGroupLocation=${OPTARG}
 			;;
 		v)
-			vmPrefi
+			vmPrefix=${OPTARG}
+			;;
+		u)
