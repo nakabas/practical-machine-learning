@@ -35,4 +35,7 @@ while getopts ":i:g:n:l:v:u:p:" arg; do
 			vmPrefix=${OPTARG}
 			;;
 		u)
-			username=${OPTARG
+			username=${OPTARG}
+			;;
+		p)
+			pa
