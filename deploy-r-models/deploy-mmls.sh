@@ -38,4 +38,5 @@ while getopts ":i:g:n:l:v:u:p:" arg; do
 			username=${OPTARG}
 			;;
 		p)
-			pa
+			password=${OPTARG}
+			;;
