@@ -40,3 +40,6 @@ while getopts ":i:g:n:l:v:u:p:" arg; do
 		p)
 			password=${OPTARG}
 			;;
+		esac
+done
+shif
