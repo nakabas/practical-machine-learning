@@ -42,4 +42,6 @@ while getopts ":i:g:n:l:v:u:p:" arg; do
 			;;
 		esac
 done
-shift $((OPTIND-1)
+shift $((OPTIND-1))
+
+# Requirements c
