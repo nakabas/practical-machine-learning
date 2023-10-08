@@ -44,4 +44,5 @@ while getopts ":i:g:n:l:v:u:p:" arg; do
 done
 shift $((OPTIND-1))
 
-# Requirements c
+# Requirements check: jq
+co
