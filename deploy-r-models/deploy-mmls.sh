@@ -45,4 +45,4 @@ done
 shift $((OPTIND-1))
 
 # Requirements check: jq
-command -v jq >/dev/null 2>&1
+command -v jq >/dev/null 2>&1 || { echo >&2 "jq i
