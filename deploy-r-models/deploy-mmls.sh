@@ -48,4 +48,4 @@ shift $((OPTIND-1))
 command -v jq >/dev/null 2>&1 || { echo >&2 "jq is required by this script but it's not installed. Please check https://stedolan.github.io/jq/download/ for details how to install jq."; exit 1; }
 
 #Prompt for parameters is some required parameters are missing
-if [[ -z "$subscript
+if [[ -z "$subscriptionId" ]]; t
