@@ -49,4 +49,4 @@ command -v jq >/dev/null 2>&1 || { echo >&2 "jq is required by this script but i
 
 #Prompt for parameters is some required parameters are missing
 if [[ -z "$subscriptionId" ]]; then
-	echo "Your subscription ID can be looked up with the CLI using: 
+	echo "Your subscription ID can be looked up with the CLI using: az account s
