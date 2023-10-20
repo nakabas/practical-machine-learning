@@ -55,4 +55,4 @@ if [[ -z "$subscriptionId" ]]; then
 	[[ "${subscriptionId:?}" ]]
 fi
 
-if [[ -
+if [[ -z "$resourc
