@@ -55,4 +55,5 @@ if [[ -z "$subscriptionId" ]]; then
 	[[ "${subscriptionId:?}" ]]
 fi
 
-if [[ -z "$resourc
+if [[ -z "$resourceGroupName" ]]; then
+	echo 
