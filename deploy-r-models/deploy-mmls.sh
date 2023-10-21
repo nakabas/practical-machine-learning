@@ -56,4 +56,4 @@ if [[ -z "$subscriptionId" ]]; then
 fi
 
 if [[ -z "$resourceGroupName" ]]; then
-	echo "This scrip
+	echo "This script will look for 
