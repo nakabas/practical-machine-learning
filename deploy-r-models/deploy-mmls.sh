@@ -56,4 +56,4 @@ if [[ -z "$subscriptionId" ]]; then
 fi
 
 if [[ -z "$resourceGroupName" ]]; then
-	echo 
+	echo "This scrip
