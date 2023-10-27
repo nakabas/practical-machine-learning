@@ -59,4 +59,5 @@ if [[ -z "$resourceGroupName" ]]; then
 	echo "This script will look for an existing resource group, otherwise a new one will be created "
 	echo "You can create new resource groups with the CLI using: az group create "
 	echo "Enter a resource group name: "
-	read res
+	read resourceGroupName
+	[[ "
