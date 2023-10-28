@@ -60,4 +60,7 @@ if [[ -z "$resourceGroupName" ]]; then
 	echo "You can create new resource groups with the CLI using: az group create "
 	echo "Enter a resource group name: "
 	read resourceGroupName
-	[[ "${resourceGroupNa
+	[[ "${resourceGroupName:?}" ]]
+fi
+
+if [[ 
