@@ -64,4 +64,4 @@ if [[ -z "$resourceGroupName" ]]; then
 fi
 
 if [[ -z "$deploymentName" ]]; then
-	echo "E
+	echo "Enter a name
