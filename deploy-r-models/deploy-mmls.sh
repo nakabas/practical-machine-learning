@@ -63,4 +63,5 @@ if [[ -z "$resourceGroupName" ]]; then
 	[[ "${resourceGroupName:?}" ]]
 fi
 
-if [[ -z "$deploymentNam
+if [[ -z "$deploymentName" ]]; then
+	echo "E
