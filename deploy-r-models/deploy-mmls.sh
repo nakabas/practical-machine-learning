@@ -65,4 +65,7 @@ fi
 
 if [[ -z "$deploymentName" ]]; then
 	echo "Enter a name for this deployment:"
-	read deployment
+	read deploymentName
+fi
+
+if [[ -z "
