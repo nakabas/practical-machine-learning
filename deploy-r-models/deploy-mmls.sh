@@ -68,4 +68,5 @@ if [[ -z "$deploymentName" ]]; then
 	read deploymentName
 fi
 
-if [[ -z "$resourceGroupLocation"
+if [[ -z "$resourceGroupLocation" ]]; then
+	ech
