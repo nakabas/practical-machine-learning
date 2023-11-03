@@ -69,4 +69,4 @@ if [[ -z "$deploymentName" ]]; then
 fi
 
 if [[ -z "$resourceGroupLocation" ]]; then
-	echo "If creating 
+	echo "If creating a *new* res
