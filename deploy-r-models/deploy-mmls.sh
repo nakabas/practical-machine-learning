@@ -69,4 +69,5 @@ if [[ -z "$deploymentName" ]]; then
 fi
 
 if [[ -z "$resourceGroupLocation" ]]; then
-	echo "If creating a *new* resource group, you need to set a locatio
+	echo "If creating a *new* resource group, you need to set a location "
+	echo "Y
