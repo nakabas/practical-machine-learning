@@ -70,4 +70,4 @@ fi
 
 if [[ -z "$resourceGroupLocation" ]]; then
 	echo "If creating a *new* resource group, you need to set a location "
-	echo "Y
+	echo "You can lookup locatio
