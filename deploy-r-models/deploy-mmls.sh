@@ -72,4 +72,5 @@ if [[ -z "$resourceGroupLocation" ]]; then
 	echo "If creating a *new* resource group, you need to set a location "
 	echo "You can lookup locations with the CLI using: az account list-locations "
 	
-	echo "Enter resource group loc
+	echo "Enter resource group location:"
+	re
