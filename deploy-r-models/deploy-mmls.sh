@@ -73,4 +73,7 @@ if [[ -z "$resourceGroupLocation" ]]; then
 	echo "You can lookup locations with the CLI using: az account list-locations "
 	
 	echo "Enter resource group location:"
-	read resourceGroupLo
+	read resourceGroupLocation
+fi
+
+if [
