@@ -76,4 +76,4 @@ if [[ -z "$resourceGroupLocation" ]]; then
 	read resourceGroupLocation
 fi
 
-if [
+if [[ -z "$vmPrefix" ]]
