@@ -77,4 +77,4 @@ if [[ -z "$resourceGroupLocation" ]]; then
 fi
 
 if [[ -z "$vmPrefix" ]]; then
-	echo "Ent
+	echo "Enter a name for th
