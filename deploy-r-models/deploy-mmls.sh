@@ -76,4 +76,5 @@ if [[ -z "$resourceGroupLocation" ]]; then
 	read resourceGroupLocation
 fi
 
-if [[ -z "$vmPrefix" ]]
+if [[ -z "$vmPrefix" ]]; then
+	echo "Ent
