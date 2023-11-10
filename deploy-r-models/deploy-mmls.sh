@@ -77,4 +77,4 @@ if [[ -z "$resourceGroupLocation" ]]; then
 fi
 
 if [[ -z "$vmPrefix" ]]; then
-	echo "Enter a name for th
+	echo "Enter a name for the virtual machine:
