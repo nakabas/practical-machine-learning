@@ -81,4 +81,5 @@ if [[ -z "$vmPrefix" ]]; then
 	read vmPrefix
 fi
 
-if [[ -z "$us
+if [[ -z "$username" ]]; then
+	echo "Ent
