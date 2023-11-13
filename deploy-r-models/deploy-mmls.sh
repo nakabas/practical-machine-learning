@@ -78,4 +78,7 @@ fi
 
 if [[ -z "$vmPrefix" ]]; then
 	echo "Enter a name for the virtual machine:"
-	read vm
+	read vmPrefix
+fi
+
+if [[ -z "$us
