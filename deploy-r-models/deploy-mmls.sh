@@ -83,4 +83,7 @@ fi
 
 if [[ -z "$username" ]]; then
 	echo "Enter a username for the vm admin:"
-	read
+	read username
+fi
+
+if [[ 
