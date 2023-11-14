@@ -82,4 +82,4 @@ if [[ -z "$vmPrefix" ]]; then
 fi
 
 if [[ -z "$username" ]]; then
-	echo "Ent
+	echo "Enter a username for the
