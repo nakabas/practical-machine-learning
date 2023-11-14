@@ -86,4 +86,4 @@ if [[ -z "$username" ]]; then
 	read username
 fi
 
-if [[ 
+if [[ -z "$password" 
