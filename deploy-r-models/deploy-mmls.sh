@@ -86,4 +86,5 @@ if [[ -z "$username" ]]; then
 	read username
 fi
 
-if [[ -z "$password" 
+if [[ -z "$password" ]]; then
+	while :
