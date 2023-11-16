@@ -88,4 +88,4 @@ fi
 
 if [[ -z "$password" ]]; then
 	while : ; do
-		echo -
+		echo -n "Enter a password 
