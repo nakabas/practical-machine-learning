@@ -88,4 +88,5 @@ fi
 
 if [[ -z "$password" ]]; then
 	while : ; do
-		echo -n "Enter a password 
+		echo -n "Enter a password for the vm admin:"
+	
