@@ -87,4 +87,5 @@ if [[ -z "$username" ]]; then
 fi
 
 if [[ -z "$password" ]]; then
-	while :
+	while : ; do
+		echo -
