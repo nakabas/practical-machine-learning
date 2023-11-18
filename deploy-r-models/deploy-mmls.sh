@@ -92,3 +92,4 @@ if [[ -z "$password" ]]; then
 		read -s password
 		echo
 		echo -n "Please repeat the password for the vm admin:"
+		read -s pa
