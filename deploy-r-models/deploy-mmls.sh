@@ -94,4 +94,4 @@ if [[ -z "$password" ]]; then
 		echo -n "Please repeat the password for the vm admin:"
 		read -s password_confirm
 		echo
-		if [[ "$password" == "$password_c
+		if [[ "$password" == "$password_confirm" ]]; t
