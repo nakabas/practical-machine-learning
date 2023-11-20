@@ -97,4 +97,4 @@ if [[ -z "$password" ]]; then
 		if [[ "$password" == "$password_confirm" ]]; then
 			break
 		else
-			echo "The passwords do not m
+			echo "The passwords do not match. Please retry."
