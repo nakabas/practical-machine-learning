@@ -96,4 +96,5 @@ if [[ -z "$password" ]]; then
 		echo
 		if [[ "$password" == "$password_confirm" ]]; then
 			break
-		el
+		else
+			echo "Th
