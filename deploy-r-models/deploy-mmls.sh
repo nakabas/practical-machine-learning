@@ -100,3 +100,6 @@ if [[ -z "$password" ]]; then
 			echo "The passwords do not match. Please retry."
 		fi
 	done
+fi
+
+if [ 
