@@ -98,3 +98,5 @@ if [[ -z "$password" ]]; then
 			break
 		else
 			echo "The passwords do not match. Please retry."
+		fi
+	done
