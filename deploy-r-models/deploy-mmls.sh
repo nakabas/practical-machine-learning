@@ -102,4 +102,4 @@ if [[ -z "$password" ]]; then
 	done
 fi
 
-if [ 
+if [ -z "$subscriptio
