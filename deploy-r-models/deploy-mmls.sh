@@ -102,4 +102,4 @@ if [[ -z "$password" ]]; then
 	done
 fi
 
-if [ -z "$subscriptionId" ] || [ -z "$resourceGroupName" ] || [ -
+if [ -z "$subscriptionId" ] || [ -z "$resourceGroupName" ] || [ -z "$deploymentName"
