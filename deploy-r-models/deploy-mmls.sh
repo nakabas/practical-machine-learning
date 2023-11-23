@@ -102,4 +102,5 @@ if [[ -z "$password" ]]; then
 	done
 fi
 
-if [ -z "$subscriptionId" ] || [ -z "$resourceGroupName" ] || [ -z "$deploymentName"
+if [ -z "$subscriptionId" ] || [ -z "$resourceGroupName" ] || [ -z "$deploymentName" ]; then
+	echo "Either 
