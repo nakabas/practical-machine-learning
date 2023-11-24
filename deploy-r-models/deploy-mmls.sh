@@ -103,4 +103,6 @@ if [[ -z "$password" ]]; then
 fi
 
 if [ -z "$subscriptionId" ] || [ -z "$resourceGroupName" ] || [ -z "$deploymentName" ]; then
-	echo "Either one of subscriptionId, resourceGroupName, deploymentName is emp
+	echo "Either one of subscriptionId, resourceGroupName, deploymentName is empty"
+	usage
+f
