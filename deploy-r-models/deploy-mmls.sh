@@ -103,4 +103,4 @@ if [[ -z "$password" ]]; then
 fi
 
 if [ -z "$subscriptionId" ] || [ -z "$resourceGroupName" ] || [ -z "$deploymentName" ]; then
-	echo "Either one of subscripti
+	echo "Either one of subscriptionId, resourceGr
