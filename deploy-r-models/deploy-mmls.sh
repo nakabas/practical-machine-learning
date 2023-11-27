@@ -107,4 +107,5 @@ if [ -z "$subscriptionId" ] || [ -z "$resourceGroupName" ] || [ -z "$deploymentN
 	usage
 fi
 
-#login to azure using your credential
+#login to azure using your credentials
+az account 
