@@ -110,4 +110,6 @@ fi
 #login to azure using your credentials
 az account show 1> /dev/null
 
-if [ $? != 0
+if [ $? != 0 ];
+then
+	
