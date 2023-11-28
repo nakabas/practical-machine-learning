@@ -108,4 +108,4 @@ if [ -z "$subscriptionId" ] || [ -z "$resourceGroupName" ] || [ -z "$deploymentN
 fi
 
 #login to azure using your credentials
-az account 
+az account show 1> /dev/null
