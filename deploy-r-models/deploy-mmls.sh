@@ -115,4 +115,4 @@ then
 	az login
 fi
 
-#set 
+#set the default 
