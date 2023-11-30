@@ -115,4 +115,5 @@ then
 	az login
 fi
 
-#set the default subscription i
+#set the default subscription id
+az account set --sub
