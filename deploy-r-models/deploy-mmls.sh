@@ -115,4 +115,4 @@ then
 	az login
 fi
 
-#set the default 
+#set the default subscription i
