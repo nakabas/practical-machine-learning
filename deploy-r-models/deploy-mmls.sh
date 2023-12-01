@@ -120,4 +120,5 @@ az account set --subscription $subscriptionId
 
 set +e
 
-#Check for existi
+#Check for existing RG
+az
