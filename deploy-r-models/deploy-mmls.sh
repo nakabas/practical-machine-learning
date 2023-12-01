@@ -116,4 +116,4 @@ then
 fi
 
 #set the default subscription id
-az account set --subscription $
+az account set --subscription $subscription
