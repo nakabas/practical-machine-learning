@@ -120,4 +120,4 @@ az account set --subscription $subscriptionId
 
 set +e
 
-#Ch
+#Check for existi
