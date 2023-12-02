@@ -121,4 +121,4 @@ az account set --subscription $subscriptionId
 set +e
 
 #Check for existing RG
-az
+az group show 
