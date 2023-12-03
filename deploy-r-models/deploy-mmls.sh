@@ -124,3 +124,4 @@ set +e
 az group show --name $resourceGroupName 1> /dev/null
 
 if [ $? != 0 ]; then
+	echo "Resourc
