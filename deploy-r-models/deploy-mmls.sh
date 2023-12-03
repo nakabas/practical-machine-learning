@@ -123,4 +123,4 @@ set +e
 #Check for existing RG
 az group show --name $resourceGroupName 1> /dev/null
 
-if
+if [ $? != 0 ]; then
