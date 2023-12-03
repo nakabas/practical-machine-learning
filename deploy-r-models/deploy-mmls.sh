@@ -121,4 +121,6 @@ az account set --subscription $subscriptionId
 set +e
 
 #Check for existing RG
-az group show --name $resourceGroupNam
+az group show --name $resourceGroupName 1> /dev/null
+
+if
