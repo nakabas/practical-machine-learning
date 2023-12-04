@@ -124,4 +124,4 @@ set +e
 az group show --name $resourceGroupName 1> /dev/null
 
 if [ $? != 0 ]; then
-	echo "Resource group with name" $resourceGroupName
+	echo "Resource group with name" $resourceGroupName "could not be fo
