@@ -124,4 +124,7 @@ set +e
 az group show --name $resourceGroupName 1> /dev/null
 
 if [ $? != 0 ]; then
-	echo "Resource group with name" $resourceGroupName "could not be found. Creating new re
+	echo "Resource group with name" $resourceGroupName "could not be found. Creating new resource group.."
+	set -e
+	(
+	
