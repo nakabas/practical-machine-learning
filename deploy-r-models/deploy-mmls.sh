@@ -128,4 +128,4 @@ if [ $? != 0 ]; then
 	set -e
 	(
 		set -x
-		az group cre
+		az group create --name $reso
