@@ -128,4 +128,4 @@ if [ $? != 0 ]; then
 	set -e
 	(
 		set -x
-		az group create --name $reso
+		az group create --name $resourceGroupName --locatio
