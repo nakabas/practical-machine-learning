@@ -127,4 +127,5 @@ if [ $? != 0 ]; then
 	echo "Resource group with name" $resourceGroupName "could not be found. Creating new resource group.."
 	set -e
 	(
-	
+		set -x
+		az group cre
