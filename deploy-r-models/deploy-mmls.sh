@@ -131,3 +131,4 @@ if [ $? != 0 ]; then
 		az group create --name $resourceGroupName --location $resourceGroupLocation 1> /dev/null
 	)
 	else
+	echo "Using 
