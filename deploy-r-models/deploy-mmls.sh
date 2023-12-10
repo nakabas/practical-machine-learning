@@ -132,4 +132,6 @@ if [ $? != 0 ]; then
 	)
 	else
 	echo "Using existing resource group..."
-f
+fi
+
+echo "Starting deplo
