@@ -136,4 +136,5 @@ fi
 
 echo "Starting deployment..."
 
-#Sta
+#Start deployment
+echo "
