@@ -137,4 +137,4 @@ fi
 echo "Starting deployment..."
 
 #Start deployment
-echo "
+echo "Virtual Network...
