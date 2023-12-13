@@ -140,4 +140,4 @@ echo "Starting deployment..."
 echo "Virtual Network..."
 (
 	set -x
-	a
+	az network vnet c
