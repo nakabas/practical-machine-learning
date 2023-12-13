@@ -140,4 +140,4 @@ echo "Starting deployment..."
 echo "Virtual Network..."
 (
 	set -x
-	az network vnet create -g "$resourceGroupName" 
+	az network vnet create -g "$resourceGroupName" -n "$vmPrefix-vnet" --a
