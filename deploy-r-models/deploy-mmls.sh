@@ -145,4 +145,4 @@ echo "Virtual Network..."
 		| jq -r .newVNet.provisioningState
 )
 
-ech
+echo "Network Securit
