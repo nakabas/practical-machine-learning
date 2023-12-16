@@ -142,4 +142,7 @@ echo "Virtual Network..."
 	set -x
 	az network vnet create -g "$resourceGroupName" -n "$vmPrefix-vnet" --address-prefix 10.0.0.0/16 \
         --subnet-name default --subnet-prefix 10.0.0.0/24 \
-		| jq -r .newVNet.provision
+		| jq -r .newVNet.provisioningState
+)
+
+ech
