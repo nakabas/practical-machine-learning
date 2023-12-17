@@ -145,4 +145,6 @@ echo "Virtual Network..."
 		| jq -r .newVNet.provisioningState
 )
 
-echo "Network Security Group with 3 Rul
+echo "Network Security Group with 3 Rules..."
+(
+	set -
