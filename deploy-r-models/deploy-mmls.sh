@@ -145,4 +145,4 @@ echo "Virtual Network..."
 		| jq -r .newVNet.provisioningState
 )
 
-echo "Network Securit
+echo "Network Security Group with 3 Rul
