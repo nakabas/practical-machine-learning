@@ -147,4 +147,5 @@ echo "Virtual Network..."
 
 echo "Network Security Group with 3 Rules..."
 (
-	set -
+	set -x
+	az network nsg crea
