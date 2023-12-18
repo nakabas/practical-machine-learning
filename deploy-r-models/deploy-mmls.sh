@@ -148,4 +148,4 @@ echo "Virtual Network..."
 echo "Network Security Group with 3 Rules..."
 (
 	set -x
-	az network nsg crea
+	az network nsg create -g "$resou
