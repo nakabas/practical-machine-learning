@@ -150,4 +150,4 @@ echo "Network Security Group with 3 Rules..."
 	set -x
 	az network nsg create -g "$resourceGroupName" -n "$vmPrefix-nsg" | jq -r .NewNSG.provisioningState
 
-	az network nsg rule 
+	az network nsg rule create -g "$resourc
