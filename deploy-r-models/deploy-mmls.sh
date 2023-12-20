@@ -148,4 +148,6 @@ echo "Virtual Network..."
 echo "Network Security Group with 3 Rules..."
 (
 	set -x
-	az network nsg create -g "$resourceGroupName" -n "$vmPrefix-nsg" | jq -r .NewNSG.provisioningS
+	az network nsg create -g "$resourceGroupName" -n "$vmPrefix-nsg" | jq -r .NewNSG.provisioningState
+
+	az ne
