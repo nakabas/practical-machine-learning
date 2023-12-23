@@ -151,4 +151,4 @@ echo "Network Security Group with 3 Rules..."
 	az network nsg create -g "$resourceGroupName" -n "$vmPrefix-nsg" | jq -r .NewNSG.provisioningState
 
 	az network nsg rule create -g "$resourceGroupName" --nsg-name "$vmPrefix-nsg" -n "MLSvr_WebNode" \
-		--priority 1000 --ac
+		--priority 1000 --access Al
