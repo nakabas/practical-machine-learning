@@ -160,4 +160,4 @@ echo "Network Security Group with 3 Rules..."
 		--destination-address-prefixes '*' --destination-port-ranges 12805 \
 		| jq -r .provisioningState
 
-	az network nsg rule create -g "$res
+	az network nsg rule create -g "$resourceGroupName" --n
