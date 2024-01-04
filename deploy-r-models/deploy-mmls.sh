@@ -160,4 +160,5 @@ echo "Network Security Group with 3 Rules..."
 		--destination-address-prefixes '*' --destination-port-ranges 12805 \
 		| jq -r .provisioningState
 
-	az network nsg rule create -g "$resourceGroupName" --nsg-name "$vmPrefix-nsg" -n "MLSvr
+	az network nsg rule create -g "$resourceGroupName" --nsg-name "$vmPrefix-nsg" -n "MLSvr_RServe" \
+		--priority 12
