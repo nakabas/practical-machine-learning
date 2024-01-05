@@ -161,4 +161,5 @@ echo "Network Security Group with 3 Rules..."
 		| jq -r .provisioningState
 
 	az network nsg rule create -g "$resourceGroupName" --nsg-name "$vmPrefix-nsg" -n "MLSvr_RServe" \
-		--priority 1200 --access Allow --protocol Tcp --directio
+		--priority 1200 --access Allow --protocol Tcp --direction Inbound \
+		-
