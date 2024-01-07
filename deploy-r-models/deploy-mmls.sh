@@ -166,4 +166,6 @@ echo "Network Security Group with 3 Rules..."
 		| jq -r .provisioningState
 )
 
-echo "Public
+echo "Public IP & NIC..."
+(
+	set -x
