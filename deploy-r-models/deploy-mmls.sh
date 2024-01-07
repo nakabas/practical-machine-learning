@@ -165,3 +165,5 @@ echo "Network Security Group with 3 Rules..."
 		--destination-address-prefixes '*' --destination-port-ranges 9054 \
 		| jq -r .provisioningState
 )
+
+echo "Public
