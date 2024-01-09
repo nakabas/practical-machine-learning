@@ -169,4 +169,4 @@ echo "Network Security Group with 3 Rules..."
 echo "Public IP & NIC..."
 (
 	set -x
-	az network public-ip create -g "$resourceGroupName" -n "$
+	az network public-ip create -g "$resourceGroupName" -n "$vmPrefix-ip" --
