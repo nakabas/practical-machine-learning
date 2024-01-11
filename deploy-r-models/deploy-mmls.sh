@@ -170,4 +170,4 @@ echo "Public IP & NIC..."
 (
 	set -x
 	az network public-ip create -g "$resourceGroupName" -n "$vmPrefix-ip" --sku Basic \
-		| jq -r .publicI
+		| jq -r .publicIp.provisioningState
