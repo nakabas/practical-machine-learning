@@ -176,4 +176,6 @@ echo "Public IP & NIC..."
 		| jq -r .NewNIC.provisioningState
 )
 
-echo "Virtual M
+echo "Virtual Machine..."
+(
+	az vm
