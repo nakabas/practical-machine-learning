@@ -173,4 +173,4 @@ echo "Public IP & NIC..."
 		| jq -r .publicIp.provisioningState
 	az network nic create -g "$resourceGroupName" -n "$vmPrefix-nic" --vnet-name "$vmPrefix-vnet" \
 		--subnet default --network-security-group "$vmPrefix-nsg" --public-ip-address "$vmPrefix-ip" \
-		| jq -r .NewNIC.
+		| jq -r .NewNIC.provisioningStat
