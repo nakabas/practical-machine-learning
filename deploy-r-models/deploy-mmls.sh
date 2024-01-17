@@ -178,4 +178,4 @@ echo "Public IP & NIC..."
 
 echo "Virtual Machine..."
 (
-	az vm create -g "$resourceGroupName" -n 
+	az vm create -g "$resourceGroupName" -n "$vmPrefix" \
