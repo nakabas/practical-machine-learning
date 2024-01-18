@@ -179,4 +179,4 @@ echo "Public IP & NIC..."
 echo "Virtual Machine..."
 (
 	az vm create -g "$resourceGroupName" -n "$vmPrefix" \
-		--image Cano
+		--image Canonical:UbuntuServer:16
