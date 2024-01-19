@@ -179,4 +179,4 @@ echo "Public IP & NIC..."
 echo "Virtual Machine..."
 (
 	az vm create -g "$resourceGroupName" -n "$vmPrefix" \
-		--image Canonical:UbuntuServer:16.04-LTS:latest --s
+		--image Canonical:UbuntuServer:16.04-LTS:latest --size Standard
