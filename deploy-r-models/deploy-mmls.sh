@@ -180,4 +180,5 @@ echo "Virtual Machine..."
 (
 	az vm create -g "$resourceGroupName" -n "$vmPrefix" \
 		--image Canonical:UbuntuServer:16.04-LTS:latest --size Standard_D2s_v3 \
-        --authentication-type password --admin-username "$username" --admin-password $pass
+        --authentication-type password --admin-username "$username" --admin-password $password \
+        -
