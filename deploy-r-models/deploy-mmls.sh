@@ -184,4 +184,6 @@ echo "Virtual Machine..."
         --nics "$vmPrefix-nic" --os-disk-name "$vmPrefix-osdisk" --enable-agent "true"
 )
 
-echo "Microsoft Machine Learning
+echo "Microsoft Machine Learning Server..."
+(
+	az
