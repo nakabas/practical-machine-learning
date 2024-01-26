@@ -186,4 +186,4 @@ echo "Virtual Machine..."
 
 echo "Microsoft Machine Learning Server..."
 (
-	az vm extension set -g "
+	az vm extension set -g "$resourceGroupNa
