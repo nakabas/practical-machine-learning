@@ -187,4 +187,5 @@ echo "Virtual Machine..."
 echo "Microsoft Machine Learning Server..."
 (
 	az vm extension set -g "$resourceGroupName" -n "customScript" \
-		--vm-name "$vmPrefix" --publisher Microsoft.Azure.Extensi
+		--vm-name "$vmPrefix" --publisher Microsoft.Azure.Extensions \
+		--prote
