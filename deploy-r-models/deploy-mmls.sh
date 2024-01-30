@@ -188,4 +188,4 @@ echo "Microsoft Machine Learning Server..."
 (
 	az vm extension set -g "$resourceGroupName" -n "customScript" \
 		--vm-name "$vmPrefix" --publisher Microsoft.Azure.Extensions \
-		--protected-settings "{\"file
+		--protected-settings "{\"fileUris\": [\"ht
