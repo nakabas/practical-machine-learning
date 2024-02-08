@@ -192,4 +192,5 @@ echo "Microsoft Machine Learning Server..."
 		| jq -r .provisioningState
 )
 
-if 
+if [ $?  == 0 ];
+ t
