@@ -194,4 +194,4 @@ echo "Microsoft Machine Learning Server..."
 
 if [ $?  == 0 ];
  then
-	echo "Microsoft Machine Learnin
+	echo "Microsoft Machine Learning Server ha
