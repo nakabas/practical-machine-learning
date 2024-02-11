@@ -194,4 +194,5 @@ echo "Microsoft Machine Learning Server..."
 
 if [ $?  == 0 ];
  then
-	echo "Microsoft Machine Learning Server has been successfully 
+	echo "Microsoft Machine Learning Server has been successfully deployed"
+fi
