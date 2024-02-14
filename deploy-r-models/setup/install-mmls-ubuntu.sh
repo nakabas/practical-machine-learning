@@ -1,4 +1,4 @@
 #!/bin/bash
 declare password=""
 
-# Initialize paramet
+# Initialize parameters specified from
