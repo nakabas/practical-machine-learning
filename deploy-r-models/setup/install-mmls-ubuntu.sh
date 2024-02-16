@@ -8,3 +8,5 @@ while getopts ":p:" arg; do
 			password=${OPTARG}
 			;;
 		esac
+done
+shift $((OPTIND
