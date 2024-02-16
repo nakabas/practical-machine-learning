@@ -5,4 +5,6 @@ declare password=""
 while getopts ":p:" arg; do
 	case "${arg}" in
 		p)
-			password=${OPTARG
+			password=${OPTARG}
+			;;
+		esac
