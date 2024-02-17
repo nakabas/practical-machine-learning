@@ -11,4 +11,5 @@ while getopts ":p:" arg; do
 done
 shift $((OPTIND-1))
 
-if [[ -z "$pass
+if [[ -z "$password" ]]; then
+	
