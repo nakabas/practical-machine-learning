@@ -9,4 +9,6 @@ while getopts ":p:" arg; do
 			;;
 		esac
 done
-shift $((OPTIND
+shift $((OPTIND-1))
+
+if [[ -z "$pass
