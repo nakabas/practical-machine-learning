@@ -12,4 +12,5 @@ done
 shift $((OPTIND-1))
 
 if [[ -z "$password" ]]; then
-	
+	while : ; do
+		ec
