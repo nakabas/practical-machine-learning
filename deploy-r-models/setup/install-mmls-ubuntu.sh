@@ -13,4 +13,4 @@ shift $((OPTIND-1))
 
 if [[ -z "$password" ]]; then
 	while : ; do
-		echo -n "Enter a password for the Mach
+		echo -n "Enter a password for the Machine Learning Se
