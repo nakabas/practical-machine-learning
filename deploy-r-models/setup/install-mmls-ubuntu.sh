@@ -14,4 +14,5 @@ shift $((OPTIND-1))
 if [[ -z "$password" ]]; then
 	while : ; do
 		echo -n "Enter a password for the Machine Learning Server admin:"
-		read 
+		read -s password
+		e
