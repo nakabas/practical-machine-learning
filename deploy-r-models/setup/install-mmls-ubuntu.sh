@@ -15,4 +15,5 @@ if [[ -z "$password" ]]; then
 	while : ; do
 		echo -n "Enter a password for the Machine Learning Server admin:"
 		read -s password
-		e
+		echo
+		echo -n "
