@@ -16,4 +16,4 @@ if [[ -z "$password" ]]; then
 		echo -n "Enter a password for the Machine Learning Server admin:"
 		read -s password
 		echo
-		echo -n "
+		echo -n "Please repeat the
