@@ -19,3 +19,4 @@ if [[ -z "$password" ]]; then
 		echo -n "Please repeat the password for the Machine Learning Server admin:"
 		read -s password_confirm
 		echo
+		if [[ "$passwo
