@@ -22,4 +22,4 @@ if [[ -z "$password" ]]; then
 		if [[ "$password" == "$password_confirm" ]]; then
 			break
 		else
-	
+			echo "The pass
