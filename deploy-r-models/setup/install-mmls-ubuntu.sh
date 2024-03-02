@@ -27,4 +27,4 @@ if [[ -z "$password" ]]; then
 	done
 fi
 
-# Optionally, if your s
+# Optionally, if your system does not 
