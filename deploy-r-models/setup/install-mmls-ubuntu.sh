@@ -27,4 +27,5 @@ if [[ -z "$password" ]]; then
 	done
 fi
 
-# Optionally, if your system does not have the https apt tra
+# Optionally, if your system does not have the https apt transport option
+ap
