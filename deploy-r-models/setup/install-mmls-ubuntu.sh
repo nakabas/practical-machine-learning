@@ -28,4 +28,4 @@ if [[ -z "$password" ]]; then
 fi
 
 # Optionally, if your system does not have the https apt transport option
-ap
+apt-get install apt
