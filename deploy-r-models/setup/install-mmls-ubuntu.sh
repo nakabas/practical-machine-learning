@@ -30,4 +30,4 @@ fi
 # Optionally, if your system does not have the https apt transport option
 apt-get install apt-transport-https
 
-# Add the
+# Add the **azure-cli*
