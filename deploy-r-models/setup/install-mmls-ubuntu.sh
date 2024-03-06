@@ -28,4 +28,6 @@ if [[ -z "$password" ]]; then
 fi
 
 # Optionally, if your system does not have the https apt transport option
-apt-get install apt-transport
+apt-get install apt-transport-https
+
+# Add the
