@@ -30,4 +30,5 @@ fi
 # Optionally, if your system does not have the https apt transport option
 apt-get install apt-transport-https
 
-# Add the **azure-cli** repo to your 
+# Add the **azure-cli** repo to your apt sources list
+AZ
