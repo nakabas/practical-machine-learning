@@ -33,4 +33,4 @@ apt-get install apt-transport-https
 # Add the **azure-cli** repo to your apt sources list
 AZ_REPO=$(lsb_release -cs)
 
-echo "deb [arch=amd64] https://packages.
+echo "deb [arch=amd64] https://packages.microsoft.com/re
