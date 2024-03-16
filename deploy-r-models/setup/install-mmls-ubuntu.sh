@@ -37,4 +37,4 @@ echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ $AZ_REPO 
 
 # Set the location of the package repo the "prod" directory containing the distribution.
 # This example specifies 16.04. Replace with 14.04 if you want that version
-wget https://packages.micro
+wget https://packages.microsoft.com/config/ubuntu/16.0
