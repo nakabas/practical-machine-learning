@@ -40,4 +40,6 @@ echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ $AZ_REPO 
 wget https://packages.microsoft.com/config/ubuntu/16.04/packages-microsoft-prod.deb
 
 # Register the repo
-dpkg -i package
+dpkg -i packages-microsoft-prod.deb
+
+# R
