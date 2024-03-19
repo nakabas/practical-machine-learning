@@ -45,4 +45,5 @@ dpkg -i packages-microsoft-prod.deb
 # Remove deb file
 rm -rf packages-microsoft-prod.deb
 
-# Add the Microsoft public signing key fo
+# Add the Microsoft public signing key for Secure APT
+apt-k
