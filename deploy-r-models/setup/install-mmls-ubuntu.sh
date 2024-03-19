@@ -43,4 +43,6 @@ wget https://packages.microsoft.com/config/ubuntu/16.04/packages-microsoft-prod.
 dpkg -i packages-microsoft-prod.deb
 
 # Remove deb file
-rm -rf packages-microso
+rm -rf packages-microsoft-prod.deb
+
+# 
