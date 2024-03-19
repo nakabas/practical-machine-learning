@@ -45,4 +45,4 @@ dpkg -i packages-microsoft-prod.deb
 # Remove deb file
 rm -rf packages-microsoft-prod.deb
 
-# Add the Microsoft p
+# Add the Microsoft public signing key fo
