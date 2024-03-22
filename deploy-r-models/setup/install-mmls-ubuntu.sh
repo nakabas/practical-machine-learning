@@ -46,4 +46,4 @@ dpkg -i packages-microsoft-prod.deb
 rm -rf packages-microsoft-prod.deb
 
 # Add the Microsoft public signing key for Secure APT
-apt-key adv --keyserve
+apt-key adv --keyserver packages.micro
