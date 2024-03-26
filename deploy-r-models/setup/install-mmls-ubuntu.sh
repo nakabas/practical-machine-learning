@@ -52,4 +52,4 @@ apt-key adv --keyserver packages.microsoft.com --recv-keys 52E16F86FEE04B979B07E
 apt-get update
 
 # Install the server
-apt-get inst
+apt-get install -y microsoft-mls
