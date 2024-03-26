@@ -51,4 +51,5 @@ apt-key adv --keyserver packages.microsoft.com --recv-keys 52E16F86FEE04B979B07E
 # Update packages on your system
 apt-get update
 
-# Install
+# Install the server
+apt-get inst
