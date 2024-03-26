@@ -48,4 +48,5 @@ rm -rf packages-microsoft-prod.deb
 # Add the Microsoft public signing key for Secure APT
 apt-key adv --keyserver packages.microsoft.com --recv-keys 52E16F86FEE04B979B07E28DB02C46DF417A0893
 
-# Update packages on your 
+# Update packages on your system
+apt-get u
