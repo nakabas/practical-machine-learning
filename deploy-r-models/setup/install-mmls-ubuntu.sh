@@ -53,3 +53,5 @@ apt-get update
 
 # Install the server
 apt-get install -y microsoft-mlserver-all-9.4.7
+
+# Activate
