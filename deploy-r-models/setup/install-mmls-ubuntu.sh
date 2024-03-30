@@ -55,4 +55,6 @@ apt-get update
 apt-get install -y microsoft-mlserver-all-9.4.7
 
 # Activate the server
-/opt/microsoft/mlserver/9.4.7/bin/R/activate.sh 
+/opt/microsoft/mlserver/9.4.7/bin/R/activate.sh -a -l
+
+# Set up bo
