@@ -58,4 +58,4 @@ apt-get install -y microsoft-mlserver-all-9.4.7
 /opt/microsoft/mlserver/9.4.7/bin/R/activate.sh -a -l
 
 # Set up both o16n nodes on one machine
-az mlserver admin node setup --onebox --admin-password $password --confirm-p
+az mlserver admin node setup --onebox --admin-password $password --confirm-password $password
